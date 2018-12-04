@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(230,205,230);
+  font-family: trebuchet MS;
+}
+header {
+  text-align: center;
+  padding: 30px;
+}
+p {
+  margin-bottom: 30px;
+}
+#name {
+  margin-bottom: 20px;
+}
+#email {
+  margin-bottom: 20px;
+}
+.required {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.dropdown {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.recommend {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+}
+.inputs {
+  grid-column: 3/4;
+}
+textarea{
+  grid-column: 3/4;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+}
+.checkbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+}
+label {
+  grid-column: 2/3;
+}
+input {
+  grid-column: 3/4;
+}
+.answers {
+  grid-column: 3/4;
+}
+#submit {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  background-color: white;
+  border-radius: 35%;
+}

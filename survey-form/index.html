@@ -1,0 +1,51 @@
+<main>
+  <header>
+    <h1 id="title">Give us your feedback...</h1>
+    <p id="description">We'd love to hear what you thought about the Ryron Gracie Seminar in Chapel Hill during May of 2018!</p>
+
+    <body>
+      <form id="survey-form" action="/submit-survey">
+
+        <div class="required"><label id="name-label">Name:
+          *required</label><input id="name" style="font-family: trebuchet MS" type="text" placeholder="Enter your name" required>
+          <label id="email-label">Email: *required</label>
+          <input id="email" style="font-family: trebuchet MS" type="email" placeholder="email@example.com" required>
+          <label id="number-label">Age: *required</label><input id="number" type="number" placeholder="18-110" min="18" max="110" required></div>
+
+        <div class="dropdown">
+          <label id="dropdown">Current rank:</label>
+          <select id="dropdown">
+            <option value="Select an option...">Select an option...</option>
+            <option value="White belt">White belt</option>
+            <option value="Combatives belt">Combatives belt</option>
+            <option value="Blue belt">Blue belt</option>
+            <option value="Purple belt">Purple belt</option>
+            <option value="Brown belt">Brown belt</option>
+            <option value="Black belt">Black belt</option>
+          </select>
+        </div>
+
+        <div class="recommend">
+          <label>How likely are you to recommend attending another Ryron Gracie seminar?</label>
+          <div class="inputs"><input type="radio" name="school-recommend">Not very likely</div>
+          <div class="inputs"><input type="radio" name="school-recommend" style="margin-bottom: 40px;">I might</div>
+          <div class="inputs"><input type="radio" name="school-recommend" style="margin-bottom: 20px;">Very likely!</div>
+        </div>
+
+        <div class="checkbox">
+          <label>What position would you like to master in the next seminar?</label>
+          <div class="answers"><input type="checkbox" name="school-recommend" value="mount">Mount mastery</div>
+          <div class="answers"><input type="checkbox" name="school-recommend" style="margin-bottom: 40px;" value="guard">Guard mastery</div>
+          <div class="answers"><input type="checkbox" name="school-recommend" style="margin-bottom: 40px;" value="armlock">Armlock mastery</div>
+          <div class="answers"><input type="checkbox" name="school-recommend" style="margin-bottom: 40px;" value="guillotine">Guillotine mastery</div>
+          <div class="answers"><input type="checkbox" name="school-recommend" style="margin-bottom: 20px;" value="back-mount">Back mount mastery
+            </div>
+
+          <label style="margin-top: 20px;">Other comments:</label>
+<textarea style="font-family: trebuchet MS" id="comments" placeholder="Please enter any additional comments here..."></textarea>
+
+            <input id="submit" type="submit">
+      </form>
+    </body>
+  </header>
+</main>
